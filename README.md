@@ -268,6 +268,7 @@ COVALLUNA/
 
 ## Restricciones técnicas implementadas
 
+- Todos los scripts DDL y DML fueron escritos manualmente por el equipo
 - Todas las consultas usan `PreparedStatement` para prevenir inyección SQL
 - No se utilizó ningún ORM ni herramienta de generación automática de SQL
 - Un asociado puede tener máximo 4 beneficiarios (validado en aplicación y BD mediante trigger)
